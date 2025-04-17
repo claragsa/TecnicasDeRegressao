@@ -4,7 +4,7 @@ Este projeto tem como objetivo entender como técnicas de regressão em Machine 
 
 ## Fonte dos Dados
 
-Os dados utilizados neste projeto foram obtidos do repositório público do Kaggle: [Amazon Best Seller Software](https://www.kaggle.com/datasets/PromptCloudHQ/amazon-best-seller-software).
+Os dados utilizados neste projeto foram obtidos do repositório público do Kaggle: [Amazon Best Seller Software](https://www.kaggle.com/datasets/kaverappa/amazon-best-seller-softwares).
 
 ## Etapas do Processo
 
@@ -52,6 +52,7 @@ Curiosamente, os modelos ajustados com GridSearchCV e RandomSearchCV não supera
 ## Arquivos
 
 - `tecnicas_regressao_script.py`: script com o código completo
+- `Tecnicas_de_regressao.ipynb`: notebook do código completo
 - `modelos_salvos/`: diretório com os modelos treinados salvos.
 - `graficos_tecnicasreg.py`: visualização dos resultados.
 - `grafico_tecnicas_regressao.png`: imagem dos gráficos gerados 
