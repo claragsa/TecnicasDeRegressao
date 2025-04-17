@@ -51,10 +51,10 @@ Curiosamente, os modelos ajustados com GridSearchCV e RandomSearchCV não supera
 
 ## Arquivos
 
-- `analysis.py`: script com análise exploratória.
-- `modelos.py`: treinamento e avaliação dos modelos.
-- `graficos_tecnicasreg.py`: visualização dos resultados.
+- `tecnicas_regressao_script.py`: script com o código completo
 - `modelos_salvos/`: diretório com os modelos treinados salvos.
+- `graficos_tecnicasreg.py`: visualização dos resultados.
+- `grafico_tecnicas_regressao.png`: imagem dos gráficos gerados 
 
 ---
 
