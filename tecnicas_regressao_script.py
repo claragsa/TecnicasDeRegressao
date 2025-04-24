@@ -44,12 +44,12 @@ def clean_data(df):
     df.dropna(subset=['product_price', 'product_star_rating', 'product_num_ratings'], inplace=True)
     df.reset_index(drop=True, inplace=True)
     df['country'] = df['country'].astype('category')
+    print('\nPos-limpeza info dos dados:')
+    print(df.info())
     
     return df
 #Garantindo que os dados estão limpos e prontos para uso
 df= clean_data(df)
-print('\nPos-limpeza info dos dados:')
-print(df.info())
 
 # Análise exploratória dos dados
 #1. Count plot: Distribuição dos produtos por pais
